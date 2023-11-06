@@ -130,7 +130,8 @@
   <ItemGroup>
     <ClCompile Include="Area.cpp" />
     <ClCompile Include="Location.cpp" />
-    <ClCompile Include="oop-project-catana-ioan-1070.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="App.cpp" />
     <ClCompile Include="Row.cpp" />
     <ClCompile Include="Seat.cpp" />
     <ClCompile Include="Venue.cpp" />
@@ -138,6 +139,7 @@
   <ItemGroup>
     <ClInclude Include="Area.h" />
     <ClInclude Include="Location.h" />
+    <ClInclude Include="App.h" />
     <ClInclude Include="Row.h" />
     <ClInclude Include="Seat.h" />
     <ClInclude Include="Venue.h" />
