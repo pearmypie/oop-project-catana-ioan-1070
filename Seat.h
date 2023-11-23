@@ -4,14 +4,12 @@ class Seat {
 
 public:
     // class public interface
-    void set_state(bool state);
+    void set_state(bool _new_state);
     bool get_state();
     void flip_state();
 
     // constructors, destructors
-    Seat() { }
-    Seat(bool state) {
-        set_state(true);
-    }
-    ~Seat() { }
+    Seat();
+    Seat(bool _state);
+    ~Seat();
 };

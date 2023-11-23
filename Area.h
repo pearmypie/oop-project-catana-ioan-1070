@@ -6,25 +6,18 @@ class Area {
     Row* rows;
 public:
     // class public interface
-    void set_code(char* area_code);
+    void set_code(char* _area_code);
     char* get_code();
 
-    void set_no_rows(int no_rows);
+    void set_no_rows(int _no_rows);
     int get_no_rows();
 
-    void set_rows(Row* rows);
+    void set_rows(Row* _rows);
     Row* get_rows();
 
     // constructors, destructors
-    Area() { }
-    Area(char* area_code, int no_rows, Row* rows) {
-        set_code(area_code);
-        set_no_rows(no_rows);
-        set_rows(rows);
-    }
-    ~Area() {
-        delete[] code;
-        delete[] rows;
-    }
+    Area();
+    Area(char* _area_code, int _no_rows, Row* _rows);
+    ~Area();
 };
 
