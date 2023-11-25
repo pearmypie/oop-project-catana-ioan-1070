@@ -68,11 +68,13 @@ bool Seat::operator!() {
 
 std::ostream& operator<<(std::ostream& _os, Seat _seat) {
 	_os << "Seat: " << _seat.free;
+	_os << "Exclusive Online: " << _seat.exclusive_online;
 	return _os;
 }
 
 std::istream& operator>>(std::istream& _is, Seat& _seat) {
 	_is >> _seat.free;
+	_is >> _seat.exclusive_online;
 	return _is;
 }
 
