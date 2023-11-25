@@ -3,5 +3,6 @@
 class Venue :
     private Location
 {
+    char* path;
 };
 

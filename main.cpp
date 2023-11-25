@@ -1,6 +1,7 @@
 //#include "App.h"
 #include <iostream>
 #include "Area.h"
+#include "Location.h"
 //int main() {
 //    App ticketing_app;
 //    ticketing_app.run();
