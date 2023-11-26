@@ -129,18 +129,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Area.cpp" />
+    <ClCompile Include="Customer.cpp" />
     <ClCompile Include="Location.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="App.cpp" />
+    <ClCompile Include="NominalTicket.cpp" />
     <ClCompile Include="Row.cpp" />
     <ClCompile Include="Seat.cpp" />
+    <ClCompile Include="Ticket.cpp" />
+    <ClCompile Include="Validator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Area.h" />
+    <ClInclude Include="Customer.h" />
     <ClInclude Include="Location.h" />
     <ClInclude Include="App.h" />
+    <ClInclude Include="NominalTicket.h" />
     <ClInclude Include="Row.h" />
     <ClInclude Include="Seat.h" />
+    <ClInclude Include="Ticket.h" />
+    <ClInclude Include="Validator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
