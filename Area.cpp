@@ -1,6 +1,6 @@
+// #define _CRT_SECURE_NO_WARNINGS
 #include "Area.h"
 #include <string>
-
 // accessors
 void Area::set_code(char* _area_code) {
     if (_area_code) {
@@ -111,7 +111,7 @@ Area& Area::operator=(Area& area) {
         if (this->rows != nullptr)
             delete[] this->rows;
 
-        strcpy(this->code, area.get_code());
+        strcpy_s(this->code, strlen(this->code), area.get_code());
         this->no_rows = area.no_rows;
         this->rows = area.get_rows();
     }

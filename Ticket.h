@@ -1,5 +1,5 @@
 #pragma once
 class Ticket {
-	char ID[16]
+	char ID[16];
 };
 

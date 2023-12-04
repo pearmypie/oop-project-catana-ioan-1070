@@ -78,6 +78,6 @@ std::istream& operator>>(std::istream& _is, Seat& _seat) {
 	return _is;
 }
 
-explicit Seat::operator bool() {
-	return this->free;
-}
+//explicit Seat::operator bool() {
+//	return this->free;
+//}
