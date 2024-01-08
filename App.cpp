@@ -1,6 +1,6 @@
 #include "App.h"
-#include <print>
+#include "Menu.h"
 
 void App::run() {
-    std::println("Program is running");
+    Menu::navigate();    
 }

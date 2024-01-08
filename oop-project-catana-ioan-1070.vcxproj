@@ -130,10 +130,11 @@
   <ItemGroup>
     <ClCompile Include="Area.cpp" />
     <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="FileHandler.cpp" />
     <ClCompile Include="Location.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="App.cpp" />
-    <ClCompile Include="NominalTicket.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Row.cpp" />
     <ClCompile Include="Seat.cpp" />
     <ClCompile Include="Ticket.cpp" />
@@ -142,8 +143,10 @@
   <ItemGroup>
     <ClInclude Include="Area.h" />
     <ClInclude Include="Customer.h" />
+    <ClInclude Include="FileHandler.h" />
     <ClInclude Include="Location.h" />
     <ClInclude Include="App.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="NominalTicket.h" />
     <ClInclude Include="Row.h" />
     <ClInclude Include="Seat.h" />

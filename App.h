@@ -1,4 +1,5 @@
 #pragma once
+#include "Menu.h"
 #include <print>
 class App {
     //char* student;
@@ -15,8 +16,6 @@ public:
     App() {}
     ~App() {
         delete[] seminar_professor;
-
-        std::println("Program has finished running");
     }
 
     // member functions
