@@ -1,6 +1,6 @@
 #pragma once
 #include "Menu.h"
-#include <print>
+
 class App {
     //char* student;
     char* seminar_professor;
@@ -9,7 +9,7 @@ public:
     //void set_student(char* new_student);
     //char* get_student();
 
-    void set_seminar_professor(char* new_professor);
+    void set_seminar_professor(const char* new_professor);
     char* get_seminar_professor();
 
     // constructors, destructors

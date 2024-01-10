@@ -10,10 +10,10 @@
 class Validator {
 public:
 	// fields
-	enum {
-		LAST_DIGIT,
-		FIRST_DIGIT
-	};
+	//enum {
+	//	LAST_DIGIT,
+	//	FIRST_DIGIT
+	//};
 
 	// constructors, destructors
 	Validator();
